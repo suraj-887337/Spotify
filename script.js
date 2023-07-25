@@ -10,16 +10,16 @@ let songItem1=Array.from(document.getElementsByClassName('songItem'));
  
 
 let songs=[
-    {songName:"Warriyo - mortals", filePath:"song/1.mp3", coverPath:"covers/1.jpg"},
-    {songName:"cielo - Hum Hum", filePath:"song/2.mp3", coverPath:"covers/2.jpg"},
-    {songName:" DEAF KEV - Invincible", filePath:"song/3.mp3", coverPath:"covers/3.jpg"},
-    {songName:"different Heaven & Eh!de my hart", filePath:"song/4.mp3", coverPath:"covers/4.jpg"},
-    {songName:" DEAF KEV - Invincible", filePath:"song/5.mp3", coverPath:"covers/5.jpg"},
-    {songName:"different Heaven & Eh!de my hart", filePath:"song/6.mp3", coverPath:"covers/6.jpg"},
-    {songName:"Warriyo - mortals", filePath:"song/7.mp3", coverPath:"covers/7.jpg"},
-    {songName:"DEAF KEV - Invincible", filePath:"song/8.mp3", coverPath:"covers/8.jpg"},
-    {songName:"junji - Heroes Tonight", filePath:"song/9.mp3", coverPath:"covers/9.jpg"}
-    // {sonName:"rub ko yad karu", filePath:"song/1.mp3", coverPath:"cover/1.jpg"}
+    {songName:"Warriyo - mortals", filePath:"songs/1.mp3", coverPath:"covers/1.jpg"},
+    {songName:"cielo - Hum Hum", filePath:"songs/2.mp3", coverPath:"covers/2.jpg"},
+    {songName:" DEAF KEV - Invincible", filePath:"songs/3.mp3", coverPath:"covers/3.jpg"},
+    {songName:"different Heaven & Eh!de my hart", filePath:"songs/4.mp3", coverPath:"covers/4.jpg"},
+    {songName:" DEAF KEV - Invincible", filePath:"songs/5.mp3", coverPath:"covers/5.jpg"},
+    {songName:"different Heaven & Eh!de my hart", filePath:"songs/6.mp3", coverPath:"covers/6.jpg"},
+    {songName:"Warriyo - mortals", filePath:"songs/7.mp3", coverPath:"covers/7.jpg"},
+    {songName:"DEAF KEV - Invincible", filePath:"songs/8.mp3", coverPath:"covers/8.jpg"},
+    {songName:"junji - Heroes Tonight", filePath:"songs/9.mp3", coverPath:"covers/9.jpg"}
+    // {sonName:"rub ko yad karu", filePath:"songs/1.mp3", coverPath:"cover/1.jpg"}
 ];
 songItem1.forEach((element, i) => {
     console.log(element, i);
