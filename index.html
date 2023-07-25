@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/36b1c7215e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav>
+        <ul>
+             <li class="brand"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Spotify_App_Logo.svg/2048px-Spotify_App_Logo.svg.png" alt="sportify"> <span>Spotify</span></li>
+            <li>HOME</li>
+            <li>ABOUT</li>
+        </ul>
+    </nav>
+    <div class="container">
+        <!-- <h1>best of hindi songs </h1> -->
+        <div class="songList">
+            <h1>Best English songs</h1>
+            <!-- <img src="bg.jpg" alt=""> -->
+            <div class="songItemcontaner">
+                <div class="songItem">
+                    <img src="covers/10.jpg" alt="1">
+                    <span class="songList">let me love you</span>
+                    <span class="songlistpaly"><span class="timestamp">05:34 <i id="0" class="far songItemplay fa-play-circle"  aria-hidden="true"></i></span>  </span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/10.jpg" alt="1">
+                    <span class="songList">let me love you</span>
+                    <span class="songlistpaly"><span class="timestamp">05:34 <i id="1"  class="far songItemplay fa-play-circle"  aria-hidden="true"></i></span>  </span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/10.jpg" alt="1">
+                    <span class="songList">let me love you</span>
+                    <span class="songlistpaly"><span class="timestamp">05:34 <i id="2"  class="far songItemplay fa-play-circle"  aria-hidden="true"></i></span>  </span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/10.jpg" alt="1">
+                    <span class="songList">let me love you</span>
+                    <span class="songlistpaly"><span class="timestamp">05:34 <i id="3"  class="far songItemplay fa-play-circle"  aria-hidden="true"></i></span>  </span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/10.jpg" alt="1">
+                    <span class="songList">let me love you</span>
+                    <span class="songlistpaly"><span class="timestamp">05:34 <i id="4"  class="far songItemplay fa-play-circle"  aria-hidden="true"></i></span>  </span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/10.jpg" alt="1">
+                    <span class="songList">let me love you</span>
+                    <span class="songlistpaly"><span class="timestamp">05:34 <i id="5" class="far songItemplay fa-play-circle"  aria-hidden="true"></i></span>  </span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/10.jpg" alt="1">
+                    <span class="songList">let me love you</span>
+                    <span class="songlistpaly"><span class="timestamp">05:34 <i id="6"  class="far songItemplay fa-play-circle"  aria-hidden="true"></i></span>  </span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/10.jpg" alt="1">
+                    <span class="songList">let me love you</span>
+                    <span class="songlistpaly"><span class="timestamp">05:34 <i id="7" class="far songItemplay fa-play-circle"  aria-hidden="true"></i></span>  </span>
+                </div>
+                <div class="songItem">
+                    <img src="covers/10.jpg" alt="1">
+                    <span class="songList">let me love you</span>
+                    <span class="songlistpaly"><span class="timestamp">05:34 <i id="8" class="far songItemplay fa-play-circle"  aria-hidden="true"></i></span>  </span>
+                </div>
+            </div>
+        </div>
+        <div class="songBanner"></div>
+    </div>
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" max="100" >
+        <div class="icons">
+            <!-- fontawesome icons -->
+            <!-- <i class="fas fa-3x fa-setp-backword"></i>
+            <i class="fa-duotone fa-play"></i>
+            <i class="fa-light fa-play"></i> -->
+            <i class="fas fa-3x fa-step-backward" id="previous" aria-hidden="true"></i>
+            <i class="far fa-3x fa-play-circle" id="masterPlay" aria-hidden="true"></i>
+            <i class="fas fa-3x fa-step-forward" id="next" aria-hidden="true"></i>
+        </div>
+        <div class="songinfo">
+            <img src="playing.gif" width="42px" alt="" id="gif">  <span id="masterSongName1">Warriyo - mortals</span>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
